@@ -32,25 +32,4 @@ Udacity
 
 I updated the description and added files used
 
-## change3
 
-I improve the documentation again
-
-## change4
-
-I did it again
-
-
-## change 5
-
-I changed something
-
-## change6
-
-I did it again
-
-## change1.1
-
-I did something here
-
-## change1.2
