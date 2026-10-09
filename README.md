@@ -8,7 +8,12 @@ Udacity submission Github
 ## Information about how to use your project
 
 
-Please dont use this project
+Please dont use this project. I just use it for the submission for Udacity
+
+## files used
+
+bikeshare.py
+README.md
 
 
 ## Contribution guidelines
@@ -17,7 +22,7 @@ Please no contributions
 
 ## Credits
 
-the supervisor at Udacity
+Udacity
 
 ## Date created
 
@@ -25,7 +30,7 @@ the supervisor at Udacity
 
 ## change2
 
-I improve the domcumentation
+I updated the description and added files used
 
 ## change3
 
