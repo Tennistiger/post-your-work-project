@@ -8,6 +8,18 @@ CITY_DATA = { 'chicago': 'chicago.csv',
 
 VALID_CITIES = ['chicago', 'new york city', 'washington']
 
+VALID_MONTHS = [
+    'all', 'january', 'february',
+    'march', 'april', 'may', 'june'
+]
+
+VALID_DAYS = [
+    'all', 'monday', 'tuesday',
+    'wednesday', 'thursday',
+    'friday', 'saturday', 'sunday'
+]
+
+
 def get_filters():
     """
     Asks user to specify a city, month, and day to analyze.
