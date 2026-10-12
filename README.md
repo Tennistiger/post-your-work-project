@@ -31,7 +31,7 @@ Run bikeshare.py using Python.
 
 ## Contribution guidelines
 
-If you welcome contributions, provide guidelines on how others can contribute to your project.
+please have fun contributing 
 
 ## Credits
 
