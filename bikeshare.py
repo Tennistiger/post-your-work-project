@@ -6,6 +6,23 @@ CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
 
+VALID_CITIES = ['chicago', 'new york city', 'washington']
+
+VALID_MONTHS = [
+    'all', 'january', 'february',
+    'march', 'april', 'may', 'june'
+]
+
+VALID_DAYS = [
+    'all', 'monday', 'tuesday',
+    'wednesday', 'thursday',
+    'friday', 'saturday', 'sunday'
+]
+
+
+LINE_SEPARATOR = '-' * 40
+
+
 def get_filters():
     """
     Asks user to specify a city, month, and day to analyze.
@@ -25,7 +42,7 @@ def get_filters():
     # get user input for day of week (all, monday, tuesday, ... sunday)
 
 
-    print('-'*40)
+    print(LINE_SEPARATOR)
     return city, month, day
 
 
@@ -61,7 +78,7 @@ def time_stats(df):
 
 
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-'*40)
+    print(LINE_SEPARATOR)
 
 
 def station_stats(df):
@@ -80,7 +97,7 @@ def station_stats(df):
 
 
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-'*40)
+    print(LINE_SEPARATOR)
 
 
 def trip_duration_stats(df):
@@ -96,7 +113,7 @@ def trip_duration_stats(df):
 
 
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-'*40)
+    print(LINE_SEPARATOR)
 
 
 def user_stats(df):
@@ -115,7 +132,7 @@ def user_stats(df):
 
 
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-'*40)
+    print(LINE_SEPARATOR)
 
 
 def main():
