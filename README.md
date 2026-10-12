@@ -12,7 +12,11 @@ chicago.csv
 new_york_city.csv
 washington.csv
 
+## Installation
 
+Download the project files.
+Place the CSV files in the project directory.
+Run bikeshare.py using Python.
 
 ## Contribution guidelines
 
