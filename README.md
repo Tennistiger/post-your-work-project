@@ -12,6 +12,17 @@ chicago.csv
 new_york_city.csv
 washington.csv
 
+## Requirements
+
+Python 3
+Pandas
+NumPy
+
+## Example Usage
+
+Run the program from the terminal:
+python bikeshare.py
+
 ## Installation
 
 Download the project files.
